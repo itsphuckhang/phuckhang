@@ -2,7 +2,7 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,button,c
 article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}
 body{line-height:1}
 a{text-decoration:none}
-ol,ul{list-style:none}
+ol,ul, li{list-style:none;}
 blockquote,q{quotes:none}
 blockquote:after,blockquote:before,q:after,q:before{content:'';content:none}
 table{border-collapse:collapse;border-spacing:0}
@@ -557,10 +557,10 @@ body{font-family:Montserrat,sans-serif}
   #LINE181 > .ladi-line{width:100%;padding:8px 0}
   #BOX184{width:744.5px;height:352px;top:0;left:0}
   #BOX184 > .ladi-box{box-shadow:0 0 30px -15px rgba(0,0,0,0.4);-webkit-box-shadow:0 0 30px -15px rgba(0,0,0,0.4);background-color:rgb(255,255,255);border-radius:6px}
-  #LIST_PARAGRAPH185{width:481px;top:73.5px;left:256.5px}
+  #LIST_PARAGRAPH185{width:744.5px;top:73.5px; padding: 0 5%;}
   #LIST_PARAGRAPH185 > .ladi-list-paragraph{color:rgb(0,0,0);font-size:16px;line-height:1.6}
-  #LIST_PARAGRAPH185 ul li{padding-bottom:9px;padding-left:25px}
-  #LIST_PARAGRAPH185 ul li:before{content:counter(linum,disc);color:rgba(199,199,199,1.0);font-size:38px;top:-18px}
+  /* #LIST_PARAGRAPH185 ul li{padding-bottom:9px;padding-left:25px}
+  #LIST_PARAGRAPH185 ul li:before{content:counter(linum,disc);color:rgba(199,199,199,1.0);font-size:38px;top:-18px} */
   #PARAGRAPH186{width:362px;top:20.948px;left:179.25px}
   #PARAGRAPH186 > .ladi-paragraph{color:rgb(10,92,21);font-size:23px;font-weight:bold;text-align:center;letter-spacing:0;line-height:1.6}
   #HEADLINE188{width:150px;top:669.398px;left:133px}
@@ -709,7 +709,7 @@ body{font-family:Montserrat,sans-serif}
   #HEADLINE311{width:445px;top:95.546px;left:385.5px}
   #HEADLINE311 > .ladi-headline{font-family:"Oswald",sans-serif;color:rgb(255,255,255);font-size:43px;font-weight:bold;text-align:center;line-height:1.6}
   #IMAGE312{width:279.945px;height:280.4px;top:0;left:57.0275px}
-  #IMAGE312 > .ladi-image > .ladi-image-background{width:282.4px;height:282.4px;top:-2px;left:0;background-image:url("https://scontent.fsgn1-1.fna.fbcdn.net/v/t39.30808-6/313179841_3420799951488519_5096328230415585551_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=0debeb&_nc_ohc=m9CRV6wZC74AX_JSPrW&_nc_ht=scontent.fsgn1-1.fna&oh=00_AfA_VKT6Vh1Oics3kqxwXkbr861kVDjcMbRPcaykG_62rg&oe=639D1BCA")}
+  #IMAGE312 > .ladi-image > .ladi-image-background{width:282.4px;height:282.4px;top:-2px;left:0;background-image:url("https://scontent.fsgn5-2.fna.fbcdn.net/v/t39.30808-6/321144068_694280462303027_7168150880753386258_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=0debeb&_nc_ohc=JX1s134Mwy0AX8sAUUB&tn=ntWeBY5DpjddBRUn&_nc_ht=scontent.fsgn5-2.fna&oh=00_AfB0D5G09Y4iLpyN7VCUu40qw-44ynjEYkd0z5rF-cmcOg&oe=63A96500")}
   #IMAGE312 > .ladi-image{border-style:solid;border-color:rgb(228,228,228);border-width:1px;border-radius:10px}
   #HEADLINE314{width:353px;top:303.354px;left:20.5px}
   #HEADLINE314 > .ladi-headline{font-family:"Roboto",sans-serif;color:rgb(252,252,252);font-size:22px;font-weight:bold;text-align:center;line-height:1}
@@ -953,10 +953,10 @@ body{font-family:Montserrat,sans-serif}
   #LINE181 > .ladi-line{width:100%;padding:8px 0}
   #BOX184{width:404.5px;height:583px;top:0;left:17.7901px}
   #BOX184 > .ladi-box{box-shadow:0 0 30px -15px rgba(0,0,0,0.4);-webkit-box-shadow:0 0 30px -15px rgba(0,0,0,0.4);background-color:rgb(255,255,255);border-radius:6px}
-  #LIST_PARAGRAPH185{width:371px;top:60.5px;left:28.2901px}
+  #LIST_PARAGRAPH185{width:382px;top:60.5px;left:28.2901px;}
   #LIST_PARAGRAPH185 > .ladi-list-paragraph{color:rgb(0,0,0);font-size:16px;line-height:1.6}
-  #LIST_PARAGRAPH185 ul li{padding-bottom:9px;padding-left:25px}
-  #LIST_PARAGRAPH185 ul li:before{content:counter(linum,disc);color:rgba(199,199,199,1.0);font-size:38px;top:-18px}
+  /* #LIST_PARAGRAPH185 ul li{padding-bottom:9px;padding-left:25px}
+  #LIST_PARAGRAPH185 ul li:before{content:counter(linum,disc);color:rgba(199,199,199,1.0);font-size:38px;top:-18px} */
   #PARAGRAPH186{width:473px;top:14.948px;left:0}
   #PARAGRAPH186 > .ladi-paragraph{color:rgb(10,92,21);font-size:23px;font-weight:bold;text-align:center;letter-spacing:0;line-height:1.6}
   #HEADLINE188{width:150px;top:804.105px;left:13px}
@@ -1105,7 +1105,7 @@ body{font-family:Montserrat,sans-serif}
   #HEADLINE311{width:538px;top:59.513px;left:-58.5px}
   #HEADLINE311 > .ladi-headline{font-family:"Oswald",sans-serif;color:rgb(255,255,255);font-size:36px;font-weight:bold;text-align:center;line-height:1.6}
   #IMAGE312{width:279.945px;height:280.4px;top:0;left:57.0275px}
-  #IMAGE312 > .ladi-image > .ladi-image-background{width:282.4px;height:282.4px;top:-2px;left:0;background-image:url("https://scontent.fsgn1-1.fna.fbcdn.net/v/t39.30808-6/313179841_3420799951488519_5096328230415585551_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=0debeb&_nc_ohc=m9CRV6wZC74AX_JSPrW&_nc_ht=scontent.fsgn1-1.fna&oh=00_AfA_VKT6Vh1Oics3kqxwXkbr861kVDjcMbRPcaykG_62rg&oe=639D1BCA")}
+  #IMAGE312 > .ladi-image > .ladi-image-background{width:282.4px;height:282.4px;top:-2px;left:0;background-image:url("https://scontent.fsgn5-2.fna.fbcdn.net/v/t39.30808-6/321144068_694280462303027_7168150880753386258_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=0debeb&_nc_ohc=JX1s134Mwy0AX8sAUUB&tn=ntWeBY5DpjddBRUn&_nc_ht=scontent.fsgn5-2.fna&oh=00_AfB0D5G09Y4iLpyN7VCUu40qw-44ynjEYkd0z5rF-cmcOg&oe=63A96500")}
   #IMAGE312 > .ladi-image{border-style:solid;border-color:rgb(228,228,228);border-width:1px;border-radius:10px}
   #HEADLINE314{width:353px;top:303.354px;left:20.5px}
   #HEADLINE314 > .ladi-headline{font-family:"Roboto",sans-serif;color:rgb(252,252,252);font-size:22px;font-weight:bold;text-align:center;line-height:1}
