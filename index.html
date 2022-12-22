@@ -220,11 +220,11 @@
               </div>
             </div>
             <div class="ladi-element" id="HEADLINE68">
-              <h3 class="ladi-headline">KHẢO SÁT NÀY</h3>
+              <h3 class="ladi-headline">KHẢO SÁT</h3>
             </div>
-            <div class="ladi-element" id="HEADLINE69">
+            <!-- <div class="ladi-element" id="HEADLINE69">
               <h3 class="ladi-headline">PHÙ HỢP VỚI AI?</h3>
-            </div>
+            </div> -->
             <div class="ladi-element" id="GROUP73">
               <div class="ladi-group">
                 <div class="ladi-element" id="IMAGE71">
@@ -697,44 +697,70 @@
               <h3 class="ladi-headline">BƯỚC 2</h3>
             </div>
             <div class="ladi-element" id="HEADLINE189">
-              <h3 class="ladi-headline">(Nếu sau 12 tiếng tính từ khi chuyển tiền mà bạn chưa nhận được bất kỳ phản hồi nào của chúng tôi thì vui lòng thực hiện bước này)</h3>
+              <h3 class="ladi-headline">(Nếu sau 12 tiếng tính từ khi gửi thông tin mà bạn chưa nhận được bất kỳ phản hồi nào của chúng tôi thì vui lòng thực hiện bước này)</h3>
             </div>
             <div class="ladi-element" id="HEADLINE195">
               <h3 class="ladi-headline">BƯỚC 1</h3>
             </div>
             <div class="ladi-element" id="HEADLINE196">
-              <h3 class="ladi-headline">Thực hiện chuyển khoản học phí (số tiền 995.000đ - dành cho 100 người đầu tiên) theo thông tin chuyển khoản phía dưới:</h3>
+              <h3 class="ladi-headline">Điền thông tin của bạn bên dưới</h3>
             </div>
             <div class="ladi-element" id="HEADLINE197">
-              <h3 class="ladi-headline">Liên hệ với hotline<span style="font-weight: bold;"> 0977289665 </span>để được hỗ trợ ghi danh</h3>
+              <h3 class="ladi-headline">Liên hệ với hotline<span style="font-weight: bold;"> 0977289665 </span>để được hỗ trợ</h3>
             </div>
             <div class="ladi-element" id="GROUP208">
               <div class="ladi-group">
                 <div class="ladi-element" id="BOX184">
                   <div class="ladi-box"></div>
                 </div>
-                <div class="ladi-element" id="HEADLINE206">
+                <!-- <div class="ladi-element" id="HEADLINE206">
                   <h3 class="ladi-headline"> Hoặc quét mã QR <span style="font-weight: bold;">bằng ứng dụng ngân hàng</span> của bạn để thực hiện chuyển khoản nhanh</h3>
-                </div>
-                <div class="ladi-element" id="IMAGE204">
+                </div> -->
+                <!-- <div class="ladi-element" id="IMAGE204">
                   <div class="ladi-image">
                     <div class="ladi-image-background"></div>
                   </div>
-                </div>
-                <div class="ladi-element" id="HEADLINE205">
+                </div> -->
+                <!-- <div class="ladi-element" id="HEADLINE205">
                   <h3 class="ladi-headline">Nội dung chuyển khoản (cần ghi rõ và chính xác) theo cú pháp sau: <span style="font-weight: bold;">TT12 + Số điện thoại của bạn</span></h3>
-                </div>
+                </div> -->
                 <div class="ladi-element" id="LIST_PARAGRAPH185">
                   <div class="ladi-list-paragraph">
                     <ul>
-                      <li>Số tài khoản: <span style="font-weight: 700;">5656 6666 99999</span></li>
-                      <li>Ngân hàng <span style="font-weight: bold;">VP Bank</span></li>
-                      <li>Chủ tài khoản: <span style="font-weight: bold;">TRAN CHI HIEU</span></li>
+                      <li style="display: flex; justify-content: space-between;">
+                        <div>Họ tên:</div> 
+                        <div style="flex: 1; text-align: right;"><input style="width: 95%; border-bottom: 1px solid black;" id="txtHoTen" type="text" placeholder="Họ tên theo cmnd/cccd" /></div>
+                      </li>
+                      <li style="display: flex; justify-content: space-between;">
+                        <div>Điện thoại:</div> 
+                        <div style="flex: 1; text-align: right;"><input style="width: 95%; border-bottom: 1px solid black;" id="txtDienThoai" type="text" placeholder="Điện thoại liên hệ với bạn" /></div>
+                      </li>
+                      
+                      <li style="display: flex; justify-content: space-between;">
+                        <div>Ngày tháng năm sinh:</div> 
+                        <div style="flex: 1; text-align: right;"><input style="width: 95%; border-bottom: 1px solid black;" id="txtNgayThangNamSinh" type="date" /></div>
+                      </li>
+                      <li>
+                        <div>Bạn đang trăn trở nhất trong cuộc sống là gì?</div> 
+                        <div style="display: flex; align-items: center;"><input name="vandetrantronhat" id="r1" style="margin-right: 5px;" type="radio" /> <label for="r1">Sự nghiệp - Tài chính</label></div>
+                        <div style="display: flex; align-items: center;"><input name="vandetrantronhat" id="r2" style="margin-right: 5px;" type="radio" /> <label for="r2">Mối quan hệ - Tình cảm</label></div>
+                      </li>
+                      <li>
+                        <div>Mong muốn của bạn khi nghe luận giải?</div> 
+                        <div><input style="width: 100%; border-bottom: 1px solid black;" id="txtMongMuon" type="text" /></div>
+                      </li>
+                      <li>
+                        <div style="padding-top: 20px; text-align: center;">
+                          <button id="btnDangKy" style="padding: 5px 15px; font-weight: bold;">GỬI ĐĂNG KÝ</button>
+                        </div>
+                      </li>
+                      <!-- <li>Ngày tháng năm sinh: <input style="margin-left: 10px; border-bottom: 1px solid black;" id="txtNgayThangNamSinh" type="date" /></li> -->
+                      <!-- <li>Chủ tài khoản: <span style="font-weight: bold;">TRAN CHI HIEU</span></li> -->
                     </ul>
                   </div>
                 </div>
                 <div class="ladi-element" id="PARAGRAPH186">
-                  <div class="ladi-paragraph">THÔNG TIN CHUYỂN KHOẢN</div>
+                  <div class="ladi-paragraph">THÔNG TIN CỦA BẠN</div>
                 </div>
               </div>
             </div>
